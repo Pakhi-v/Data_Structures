@@ -12,7 +12,9 @@ int main(){
     cout<<"value:"<<ptr<<endl; //(ptr)printing address
 
     cout<<"size of integer is"<<sizeof(num) << endl;
-    cout<<"size of pointer is"<<sizeof(ptr) << endl;
+    cout<<"size of pointer is"<<sizeof(ptr) << endl; //pointer size is always 8byte
+
+    
 
 
 }
