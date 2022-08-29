@@ -5,7 +5,7 @@ void print(int n){
     if(n == 0){
     return;
     }
-    cout<<n<<endl; //tail recursion
+    cout<<n<<endl; //tail recursion 
     print(n-1);
 }
 
