@@ -8,8 +8,8 @@ int main(){
     cout<<"Address of num is:"<<&num<<endl;
 
     int *ptr = &num;
-    cout<<"Address:"<<*ptr<<endl; //(*) printing value
-    cout<<"value:"<<ptr<<endl; //(ptr)printing address
+    cout<<"Value:"<<*ptr<<endl; //(*) printing value
+    cout<<"Address:"<<ptr<<endl; //(ptr)printing address
 
     cout<<"size of integer is"<<sizeof(num) << endl;
     cout<<"size of pointer is"<<sizeof(ptr) << endl; //pointer size is always 8byte
