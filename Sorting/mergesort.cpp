@@ -61,7 +61,7 @@ int main(){
     {
         cin >> arr[i];
     }
-    merge_sort(arr,0,n-1);
+    merge_sort(arr,0,n-1); //merge sort function
     cout << "array after applying merge sort:";
      print(arr, n);
     return 0;
