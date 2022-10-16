@@ -20,5 +20,5 @@ class Base{
                     
                     // calls member function of Derived class 
                     base1->print(); 
-                    return0; 
+                    return 0; 
                     }
