@@ -1,4 +1,4 @@
-//create 2d array dynamically
+//program to create 2d array dynamically 
 #include<iostream>
 using namespace std;
 int main(){
