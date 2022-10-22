@@ -1,2 +1,2 @@
 # DATA STRUCTURES AND ALGORITHMS
-All Programs are based on different topics of Data structures and Algorithm.
+This repository contains all Programs that are based on different topics of Data structures and Algorithm.
