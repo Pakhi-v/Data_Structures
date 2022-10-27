@@ -49,7 +49,7 @@ int main() {
     cin >> n;
 
     int tempSol = sqrtInteger(n);
-    cout <<" Answer is " << morePrecision(n, 3, tempSol) << endl;
+    cout <<" Answer is " << morePrecision(n, 4, tempSol) << endl;
 
     return 0;
 }
