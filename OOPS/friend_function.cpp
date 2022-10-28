@@ -5,12 +5,12 @@ class Rectangle{
     int length; 
     public: 
     Rectangle() { 
-        length =10; 
+        length =30; 
         } 
         friend int printLength(Rectangle);//friend function
          }; 
          int printLength(Rectangle b) {  
-            b.length +=10; 
+            b.length +=30; 
             return b.length; 
             } 
             int main() { 
