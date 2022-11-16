@@ -51,3 +51,19 @@ int main(){
     insertattail(tail, 15);
     print(head);
 } //Linked list program 
+class Solution {
+public:
+    bool hasCycle(ListNode *head) {
+        unordered_map<ListNode*,int> mp;
+        ListNode* temp= head;
+        while(temp!=NULL)
+        {
+            mp[temp]++;
+            temp=temp->next;
+            if(mp[temp]>1)
+                return true;
+        }
+        return false;
+        
+    }
+};
