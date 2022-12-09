@@ -1,4 +1,4 @@
-//remove duplicates from sorted array
+//Program to remove duplicates from sorted array
 class Solution {
 public:
     ListNode* deleteDuplicates(ListNode* head) {        
