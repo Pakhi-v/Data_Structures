@@ -1,3 +1,4 @@
+//program for inheritance
 class vechile{ 
     public: 
     string color; 
