@@ -1,3 +1,4 @@
+//program for deletion in array
 #include<stdio.h>
 struct Array
 {
