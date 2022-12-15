@@ -80,5 +80,5 @@ int main(){
 
     }
     else
-    cout<<"stack is not empty";
+    cout<<"stack not empty";
 }
