@@ -17,6 +17,11 @@ void Insertathead(Node* &head, int d){
     temp -> next = head;
     head = temp;
 }
+void InsertatTail(Node* &tail, int d){
+    Node* temp = new Node(d);
+    tail -> next = temp;
+    tail = tail -> next;
+}
 void print(Node* &head){
     Node* temp = head;
     while(temp != NULL ){
@@ -35,9 +40,11 @@ int main(){
 
     //head pointed to node1
     Node* head = node1;
+    Node* tail = node1;
     //print(head);
 
-    Insertathead(head,12);
+    //Insertathead(head,12);
+    InsertatTail(tail,12);
     print(head);
     
 
