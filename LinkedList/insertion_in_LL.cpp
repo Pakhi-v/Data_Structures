@@ -35,7 +35,7 @@ void print(Node* &head){
 int main(){
 
     //created a new node
-    Node* node1 = new Node(10);
+    Node* node1 = new Node(16);
     cout<<node1 -> data <<endl;
 
     //head pointed to node1
@@ -46,6 +46,7 @@ int main(){
     //Insertathead(head,12);
     InsertatTail(tail,12);
     print(head);
+    
     
 
 }
