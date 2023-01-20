@@ -26,7 +26,7 @@ public:
         return reverseHead;
     }
     ListNode* reverseList(ListNode* head){
-        if(head == NULL) return NULL;
+        if(head == NULL) return NULL;  
         return reverse(head);
     }
     };
