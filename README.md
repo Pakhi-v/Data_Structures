@@ -11,4 +11,5 @@ Topics :
 7) Queue
 8) Recursion
 9) STL
+10) Pointers
 
