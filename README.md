@@ -7,4 +7,5 @@ Topics :
 3) Trees
 4) AVL
 5) Linked List
+6) Hashing
 
