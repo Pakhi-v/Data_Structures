@@ -33,3 +33,33 @@ void printleft(Node* root){
         }
     }
 }
+
+
+//method 3: level order traversal
+vector<int> leftView(Node *root){
+    vector<int> v;
+    if(!root){
+        return v;
+    }
+    queue<Node*> q;
+    q.push(root);
+    while(!q.empty()){
+        int n = q.size();
+        for(int i=0;i<n;i++){
+            Node* temp = q.front();
+            q.pop();
+            if( i == 1)
+            cout<<temp->data<< " ";
+
+            // Add left node to queue
+            if(temp->left != NULL)
+            q.push(temp->left);
+
+            // Add left node to queue
+            if(temp->right != NULL)
+            q.push(temp->right);
+        }
+
+
+    }
+}
