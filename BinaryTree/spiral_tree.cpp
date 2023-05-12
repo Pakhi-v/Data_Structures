@@ -17,7 +17,7 @@ vector<int> findSpiral(Node *root){
             t.push_back(temp->data);
         }
         level ++;
-        if(level & 1)
+        if(level & 1) //to check whether even or odd levels
         reverse(t.begin(),t.end());
 
         for(auto it: t)
