@@ -4,7 +4,7 @@ This repository contains all the Programs that are based on different topics of 
 Topics :
 1) Array
 2) Binary Search 
-3) Trees
+3) Tree
 4) AVL
 5) Linked List
 6) Hashing
