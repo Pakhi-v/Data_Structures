@@ -43,3 +43,29 @@ public:
         
     }
 };
+
+//another solution
+class Solution
+{   
+    //Function to check if brackets are balanced or not.
+    static boolean ispar(String x)
+    {
+        Stack<Character>st = new Stack<>();
+        for(int i =0;i<x.length();i++){
+            char s= x.charAt(i);
+            if(s=='('||s=='['||s=='{')
+            st.push(s);
+            else{
+                if(st.isEmpty())
+                return false;
+                char ch = st.pop(); 
+                if((s==')' && ch=='(')||(s=='}' && ch=='{')||(s==']'&&ch=='['))                  continue;
+                else
+                return false;
+                
+            }
+        }
+
+     return st.isEmpty();
+    }
+}
