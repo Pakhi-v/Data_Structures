@@ -25,3 +25,5 @@ bool isAnagram(string a, string b){
         
     }
     };
+
+//another approach
