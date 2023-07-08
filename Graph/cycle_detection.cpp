@@ -47,3 +47,43 @@ string cycledet (vector<vector<int>> &edges, int n, int m) //we have list of edg
     }
     return "NO";
 }
+
+
+//uisng dfs
+bool iscycledfs(int node, int parent,unordered_map<int, bool> &visited, unordered_map<int, list<int>> &adj ){
+    visited[node] = true;
+
+    for(auto neig: adj[node]){
+        if(!visited[neig]){
+            bool cycledetect = iscycledfs(neig, node, visited, adj);
+            if(cycledetect)
+            return true;
+        }
+        else if(neig != parent){
+            return true; //cycle present;
+        }
+    }
+    return false;
+}
+string cycledet (vector<vector<int>> &edges, int n, int m) //we have list of edges, no of nodes and edges
+{
+    //create adj list
+    unordered_map<int, list<int>> adj;
+    for(int i=0;i<n;i++){
+       int u = edges[i][0];
+       int v = edges[i][1];
+
+       adj[u].push_back(v);
+       adj[v].push_back(u);
+    }
+    //to handle disconnected graph
+    unordered_map<int, bool> visited;
+    for(int i=0;i<n;i++){
+        if(!visited[i]){
+            bool ans = isCycledfs(i,-1, visited, adj);
+            if(ans == 1)
+            return "YES";
+        }
+    }
+    return "NO";
+}
