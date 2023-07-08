@@ -1,5 +1,5 @@
 void dfs(int node,  unordered_map<int, bool> &visited,  unordered_map<int, list<int> &adj, vector<int> &component){
-     component.push_back(node);
+     component.push_back(node); //ans store
      visited[node] = true;
 
      //for every connected node recusrive call
