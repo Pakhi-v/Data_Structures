@@ -20,7 +20,7 @@ vector<int> topologicalsort(vector<vector<int>> &edges, int v, int e){
     }
 
     //call dfs toplogical sort until function for all components
-    unordered_map<int,bool> visited;
+    vector<bool>visited(v);
     stack<int> st;
     for(int i=0;i<v;i++){
         if(!visited[i])
