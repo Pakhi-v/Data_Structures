@@ -23,3 +23,4 @@ Topics :
 19) String
 20) DP
 21) Trie
+22) Greedy
