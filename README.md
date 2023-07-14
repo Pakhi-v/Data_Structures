@@ -24,3 +24,4 @@ Topics :
 20) DP
 21) Trie
 22) Greedy
+23) Heap
