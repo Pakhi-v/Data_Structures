@@ -1,3 +1,4 @@
+//approach using binary search
 class Solution {
 public:
     int searchInsert(vector<int>& nums, int target) {
