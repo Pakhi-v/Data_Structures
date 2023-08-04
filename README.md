@@ -25,5 +25,5 @@ Topics :
 21) Trie
 22) Greedy
 23) Heap
-24) Backtracking
-25) Searching
+24) Searching
+25) Backtracking
