@@ -1,5 +1,5 @@
 # DATA STRUCTURES AND ALGORITHMS
-This repository try to cover all the Programs and Algorithms that are based on different topics of Data structures and Algorithm.
+This repository try to cover all the Programs and Algorithms that are based on different topics of Data structures and Algorithms.
 
 Topics :
 1) Array
