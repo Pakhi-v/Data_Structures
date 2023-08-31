@@ -1,5 +1,5 @@
 # DATA STRUCTURES AND ALGORITHMS
-This repository try to cover all the Programs and Algorithms that are based on different topics of Data structure and Algorithm.
+This repository try to cover all the Programs and Algorithms that are based on different topics of Data structure and Algorithm in Cpp language and C.
 
 Topics :
 1) Array
